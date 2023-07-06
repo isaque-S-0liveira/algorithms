@@ -47,7 +47,3 @@ def merge(numbers, start, mid, end):
         else:
             numbers[general_index] = right[right_index]
             right_index += 1
-
-
-result = is_anagram("", "")
-print(result)  # Saída: ('amor', 'amor', True)
